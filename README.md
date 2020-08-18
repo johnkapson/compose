@@ -10,9 +10,11 @@ enable them to communicate.
 
 ## Usage
 To build the images and start the application:
+
 `$ docker-compose up --build`
 
 To start the application without rebuilding:
+
 `$ docker-compose up`
 
 Cntl-C to exit.
