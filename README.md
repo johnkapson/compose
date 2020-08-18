@@ -7,3 +7,12 @@ container.
 
 Using docker-compose, the two containers are able to share a virtual network space such that no complicated configuration is needed to
 enable them to communicate.
+
+## Usage
+To build the images and start the application:
+`$ docker-compose up --build`
+
+To start the application without rebuilding:
+`$ docker-compose up`
+
+Cntl-C to exit.
