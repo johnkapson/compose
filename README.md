@@ -17,4 +17,11 @@ To start the application without rebuilding:
 
 `$ docker-compose up`
 
-Cntl-C to exit.
+Ctrl-C to exit.
+
+### Background Mode
+To start the application in the background:
+`$ docker-compose -d up`
+
+To stop the application when running in the background, _from the directory in which the docker-compose.yml file resides_:
+`$ docker-compose down`
